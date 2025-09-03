@@ -1,0 +1,15 @@
+Two Rolls
+User is playing a board game, and is currently at position X.
+To win, he needs to reach position 50.
+
+User has a pair of 6-sided dice, which will decide how he moves -
+he will roll the pair of dice, sum up the numbers on them, and then move exactly that many steps forward.
+
+More precisely, if the dice show values of d1 and d2, User must move from X to (X+d1+d2).
+
+However, Chef's dice are a bit weird: rather than starting from 1, they start from Y.
+
+That is, the values on a single die are Y,Y+1,Y+2,Y+3,Y+4,Y+5.
+
+Is it possible for Chef to win the game by reaching position 50, after exactly one turn?
+Note that Chef must exactly land on position 50 after his move - going beyond it does not count as a win.
